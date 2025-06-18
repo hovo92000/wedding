@@ -46,7 +46,7 @@ jobs:
           username: ${{ secrets.FTP_FRONT_USER }}
           password: ${{ secrets.FTP_FRONT_PASSWORD }}
           local-dir: ./frontend/dist/
-          remote-dir: /
+          server-dir: /
 
       #- name: Deploy backend
       #  uses: SamKirkland/FTP-Deploy-Action@v4.3.4
