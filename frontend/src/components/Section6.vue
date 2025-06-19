@@ -16,7 +16,9 @@
                         օր
                 </div>
             </div>
-            :
+            <div class="count-dots">
+                :
+            </div>
               <div class="count-box">
                 <div class="count">
                     {{ hours }}
@@ -25,7 +27,9 @@
                         ժամ
                 </div>
             </div>
-            :
+            <div class="count-dots">
+                :
+            </div>
              <div class="count-box">
                 <div class="count">
                     {{ minutes }}
@@ -34,7 +38,9 @@
                         րոպե
                 </div>
             </div>
-            :
+            <div class="count-dots">
+                :
+            </div>
               <div class="count-box">
                 <div class="count">
                     {{ seconds }}
@@ -43,6 +49,9 @@
                         վայրկյան
                 </div>
             </div>
+        </div>
+        <div class="last-img-container">
+            <img width="235px" height="137px" src="../assets/images/section6Img2.png" alt="">
         </div>
     </section>
 </template>
@@ -99,7 +108,7 @@ onUnmounted(() => {
     display: flex;
     flex-direction: column;
     .img-container{
-        margin: 0 40px;
+        margin: 0 30px;
         display: flex;
         flex-direction: column;
         img{
@@ -107,15 +116,23 @@ onUnmounted(() => {
         }
     }
     .text{
-        margin: 0 40px;
+        margin: 20px 35px;
         color: #A9B09C;
         text-align: center;
+        font-size: 18px;
     }
     .timer-container{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 5px;
+        margin-bottom: 50px;
+        .count-dots{
+            font-family: mardoto-black;
+            color: #3A3F33;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
         .count-box{
             display: flex;
             flex-direction: column;
@@ -123,14 +140,18 @@ onUnmounted(() => {
             .count{
                 font-family: mardoto-black;
                 color: #3A3F33;
-                font-size: 50px;
+                font-size: 45px;
             }
             .count-text{
                 font-family: montserratarm-regular;
-                font-size: 18px;
+                font-size: 16px;
                 color: #261914;
             }
         }
+    }
+    .last-img-container{
+        display: flex;
+        justify-content: center;
     }
 }
 

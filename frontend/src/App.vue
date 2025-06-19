@@ -18,7 +18,7 @@
     </div>
       <div class="left-img" :style="leftStyle"></div>
       <div class="right-img" :style="rightStyle"></div>
-      <div class="text-box"   v-animateonscroll="{
+      <div class="text-box"   v-animateonscroll.once="{
         enterClass: 'animate-enter fadein animation-duration-2000',
         leaveClass: 'animate-leave fadeout'
       }">
@@ -218,7 +218,7 @@ h1,h2,h3,h4,h5,h6{
     .text-box-title{
       font-family: montserratarm-regular;
       text-align: center;
-      font-size: 25px;
+      font-size: 18px;
       color: #504129;
     }
     .text-box-name-container{
@@ -234,7 +234,8 @@ h1,h2,h3,h4,h5,h6{
       }
     }
     .text-box-date{
-       font-size: 18px;
+        font-family: mardoto-black;
+        font-size: 25px;
         color: #504129;
         text-align: center;
     }
@@ -267,8 +268,8 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 100%;
     position: fixed;
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 54px;
+    height: 54px;
     right: 40px;
     top: 20px;
     z-index: 999;
