@@ -16,7 +16,7 @@
                     enterClass: 'animate-enter fadein animation-duration-1000',
                     leaveClass: 'animate-leave fadeout'
                 }">Սուրբ Աննա Եկեղեցի/ժամը 15:00</div>
-                <div class="location">երևան, Աբովյան փող., 15/1</div>
+                <div class="location">Երևան, Աբովյան փող., 15/1</div>
             </div>
         </div>
         <div class="img-container" >

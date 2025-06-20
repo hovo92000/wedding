@@ -8,7 +8,7 @@
                 <div class="content">
                     <img width="100px" height="100px" src="../assets//images/section5Icon1.png" alt="">
                     <div class="content-time">
-                        12:40
+                        12:30
                     </div>
                     <div class="content-text">Հարսի տուն</div>
                 </div>
