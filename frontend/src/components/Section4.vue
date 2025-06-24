@@ -20,7 +20,7 @@
             <a href="https://maps.app.goo.gl/Dcr1JrvudAviLKUx8" target="_blank">Քարտեզ</a>
         </div>
         <div class="img-container" style="margin: 0 20px;">
-            <img src="../assets/images/section4Img2.png" alt="">
+            <img src="../assets/images/photo_2025-06-12_14-56-59.jpg" alt="">
         </div>
     </section>
 </template>

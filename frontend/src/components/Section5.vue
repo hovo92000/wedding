@@ -1,8 +1,8 @@
 <template>
     <section class="section5" >
-        <div class="img-container" >
+        <!-- <div class="img-container" >
             <img src="../assets/images/section5Img.png" alt="">
-        </div>
+        </div> -->
         <div class="section5-content-box">
             <div class="content-column1">
                 <div class="content">
