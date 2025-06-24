@@ -1,9 +1,5 @@
 <template>
     <section class="section6" >
-        <div class="section6-title" v-animateonscroll.once="{
-        enterClass: 'animate-enter fadein animation-duration-1000',
-        leaveClass: 'animate-leave fadeout'
-      }">(խնդրում ենք հաշվի առնել, որ միջոցառումը նախատեսված է միայն մեծահասակների համար)</div>
         <div class="img-container"  v-animateonscroll.once="{
         enterClass: 'animate-enter fadein animation-duration-1000',
         leaveClass: 'animate-leave fadeout'
@@ -111,13 +107,6 @@ onUnmounted(() => {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    .section6-title{
-        margin-bottom: 20px;
-        text-align: center;
-        color: #3A3F33;
-        font-family: montserratarm-regular;
-        font-size: 14px;
-    }
     .img-container{
         margin: 0 30px;
         display: flex;

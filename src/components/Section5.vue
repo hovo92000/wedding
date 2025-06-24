@@ -18,6 +18,7 @@
                         18:00
                     </div>
                     <div class="content-text">Ռեստորան</div>
+                    <div class="content-sub-text">(խնդրում ենք հաշվի առնել, որ միջոցառումը նախատեսված է միայն մեծահասակների համար)</div>
                 </div>
             </div>
             <div class="dotted-line">
@@ -82,6 +83,14 @@
                 .content-text{
                     color: #504129;
                 }
+                .content-sub-text{
+                   margin-top: 5px;
+                   margin-bottom: 20px;
+                   text-align: center;
+                   color: #3A3F33;
+                   font-family: montserratarm-regular;
+                   font-size: 10px;
+               }
             }
         }
         .dotted-line{
